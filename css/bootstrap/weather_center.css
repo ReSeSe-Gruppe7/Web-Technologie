@@ -1,0 +1,29 @@
+body{
+	background-image:url(../../img/herbst.jpg);
+	padding:40px;
+}
+
+
+.hero-unit{
+	    opacity: 0.3;       /* modern browser */  
+    -moz-opacity: 0.3;  /* older Mozilla browser */  
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE8 in Standard Compliant Mode */  
+    filter:alpha(opacity=30); /* IE5.x -7.0 */  
+
+}
+.spot{
+	margin-left: auto ;
+  margin-right: auto ;
+}
+.center{
+	text-align: center;
+}
+	.child {    
+  color: #ffffff;   
+}   
+
+enterform
+#enterform{    
+  width: 80%; 
+  margin-bottom: 60px;
+}   
