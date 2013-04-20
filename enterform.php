@@ -125,7 +125,7 @@
                   		<div class="control-group">
     						<label class="control-label" >Coordinates</label>
     					<div class="controls">
-      						<input type="text" name="coordinate"> <button class="btn btn-primary" id="validateCoordinate" type="button">validate</button>
+      						<input type="text" id="coordintate_Input" name="coordinate"> <button class="btn btn-primary" id="validateCoordinate" type="button">validate</button>
     					</div>
                   	</form>
                   </div>
