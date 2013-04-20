@@ -6,6 +6,10 @@ $(document).ready(function() {
  preparetheform();
 });
 function preparetheform(){
-$("#enterform").find("select").css("width","auto");
+$("#weatherinfoform").find("select").css("width","auto");
+$("#validateCoordinate").click(function() {
+  alert("Handler for .click() called.");
+});
 }
+
 
