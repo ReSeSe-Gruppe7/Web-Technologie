@@ -1,4 +1,4 @@
-<?php include("header.php");?> 
+<?php include("_includes/header.php");?> 
 	<div id="main">
 		<header class="jumbotron subhead">
 			<div class="container">
@@ -17,4 +17,4 @@
 				<a href="http://vimeo.com/45089420">Active Child - "Johnny Belinda" (Official Music Video)</a> from <a href="http://vimeo.com/user5296991">Active Child</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 		</div>
 	</div>
-<?php include("footer.php"); ?> 
+<?php include("_includes/footer.php"); ?> 

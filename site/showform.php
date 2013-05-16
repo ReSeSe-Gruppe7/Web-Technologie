@@ -1,4 +1,4 @@
-<?php include("header.php");?>
+<?php include("_includes/header.php");?>
 <?php
 $con=mysql_connect("127.0.0.1","root");
 if (!$con){
@@ -8,7 +8,7 @@ mysql_select_db("WEBTEC" ,$con);
 $sql="SELECT * FROM WEBTEC.Weather_Info;";
 
 $result = mysql_query($sql);
-echo "<script type='text/javascript' src='js/jquery.tablesorter.js'></script>";
+echo "<script type='text/javascript' src='../js/jquery.tablesorter.js'></script>";
 echo "<script type='text/javascript'>$(document).ready(function(){ $('#myTable').tablesorter(sortList: [[0,0]] );});</script>";
 
 echo "<table class='table table-striped table-condensed tablesorter'>
@@ -44,4 +44,4 @@ echo "</table>";
 
 mysql_close($con);
 ?>
-<?php include("footer.php");?>
+<?php include("_includes/footer.php");?>

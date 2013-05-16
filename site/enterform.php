@@ -1,6 +1,6 @@
-<?php include("header.php"); ?>
+<?php include("_includes/header.php"); ?>
 <?php include("dbhandling.php"); ?>
-<script type="text/javascript" src="js/enterform.js"></script>
+<script type="text/javascript" src="../js/enterform.js"></script>
 <div style="padding: 20px"></div>
 <div class="tabbable tabs-left">
               <ul class="nav nav-tabs">
@@ -136,4 +136,4 @@
 
 
   
-<?php include("footer.php"); ?> 
+<?php include("_includes/footer.php"); ?> 

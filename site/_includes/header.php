@@ -6,10 +6,10 @@
 	<meta name="citation_keywords" content="Weather Wetter vorhersage Climat meteo">
 	<meta charset="utf-8">
 	<title>Weather Information Center</title>
-	<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="css/bootstrap/weather_center.css" rel="stylesheet" type="text/css"/>
-	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="../css/bootstrap/weather_center.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="../js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
 	</head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top">
