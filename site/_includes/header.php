@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
+    <link rel='icon' type='image/png' href='../img/cloud.png'/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="citation_authors" content="Badr Mouslik, Rheinhold Marber, Selcan Cali">
 	<meta name="citation_keywords" content="Weather Wetter vorhersage Climat meteo">
