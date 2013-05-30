@@ -1,14 +1,10 @@
 <?php include("_includes/header.php"); ?>
 <?php include("dbhandling.php"); ?>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByayIFXAQ-g6ojn0wyiYSf5FNjpH5pg3A&sensor=false"></script>
 <script type="text/javascript" src="../js/enterform.js"></script>
 <div style="padding: 20px"></div>
-<div class="tabbable tabs-left">
-              <ul class="nav nav-tabs">
-                <li class="active"><a href="#WeatherInfo" data-toggle="tab">Enter weather info</a></li>
-                <li><a href="#ValidateCoordinates" data-toggle="tab">Validate Coordinates</a></li>
-              </ul>
-              <div class="tab-content">
-                <div class="tab-pane active" id="WeatherInfo">
+
+                <div class="tab-pane" id="WeatherInfo">
                   <div id="container">
 					<form class="form-horizontal" id="weatherinfoform" action="dbhandling.php" method="post">
   						<div class="control-group">
@@ -118,22 +114,5 @@
   						</div>
   					</form>
 				</div>
-                </div>
-                <div class="tab-pane" id="ValidateCoordinates">
-                  <div class="container">
-                  	<form class="form-horizontal">
-                  		<div class="control-group">
-    						<label class="control-label" >Coordinates</label>
-    					<div class="controls">
-      						<input type="text" id="coordintate_Input" name="coordinate"> <button class="btn btn-primary" id="validateCoordinate" type="button">validate</button>
-    					</div>
-                  	</form>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-  
+                </div> 
 <?php include("_includes/footer.php"); ?> 

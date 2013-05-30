@@ -18,11 +18,10 @@ body{
 .center{
 	text-align: center;
 }
-	.child {    
+.child {    
   color: #ffffff;   
 }   
 
-enterform
 #enterform{    
   width: 80%; 
   margin-bottom: 60px;
