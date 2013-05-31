@@ -1,9 +1,9 @@
-	<footer class="span7 footer navbar-fixed-bottom">
-      <div class="container text-center">
-        <p>Designed and built by <a href="http://twitter.com/frompedro" target="_blank">@frompedro</a>.</p>
-        CC BY 1.0.
-      </div>
-    </footer>
+		<div id="footer" >				
+			<div class="container">
+				 <p class="footer_designed">Designed and built by <a href="http://twitter.com/frompedro" target="_blank">@frompedro</a>,
+				 <a href="https://twitter.com/reinimarber" target="_blank">@reinimarber</a>, Selcan Cali and Selcuk Kabak.</p>
+			</div>					
+		</div>
     </body>
 </html>
 

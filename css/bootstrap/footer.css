@@ -1,0 +1,30 @@
+ #footer {
+        height: 40px;
+        bottom: 0px;
+        position: fixed;
+        width: 100%;
+        margin-left:-40px;
+        text-align: right;      
+        background-color: #0A0A0A;
+
+}
+
+ /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -40px;
+          margin-right: -20px;
+          padding-left: 10px;
+          padding-right: 10px;
+          height: 60px;
+        }
+      }
+
+      .container {
+        width: auto;
+        max-width: 1080px;
+      }
+      .container .footer_designed {
+        margin: 10px 0;
+        margin-left: 20px;
+      }

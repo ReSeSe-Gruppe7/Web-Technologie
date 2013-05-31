@@ -1,5 +1,5 @@
 body{
-	background-image:url(../../img/herbst.jpg);
+	/*background-image:url(../../img/herbst.jpg);*/    
 	padding:40px;
 }
 
@@ -26,3 +26,7 @@ body{
   width: 80%; 
   margin-bottom: 60px;
 }   
+
+.socials {  
+        padding: 10px;  
+}
